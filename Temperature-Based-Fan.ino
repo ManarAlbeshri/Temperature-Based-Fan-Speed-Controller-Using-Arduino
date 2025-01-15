@@ -4,13 +4,13 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
  
-#define DHTPIN 7        
-#define DHTTYPE DHT11  
+#define DHTPIN 7   // Pin connected to the DHT sensor     
+#define DHTTYPE DHT11  // Define the type of DHT sensor (DHT11)
  
-#define MOTOR_PIN_ENA 9  
-#define MOTOR_PIN_IN1 10 
-#define MOTOR_PIN_IN2 11 
- 
+#define MOTOR_PIN_ENA 9  // Pin for motor speed control (ENA)
+#define MOTOR_PIN_IN1 10 // Pin for motor direction control (IN1)
+#define MOTOR_PIN_IN2 11 // Pin for motor direction control (IN2)
+
 #define TEMPERATURE_THRESHOLD 28 
 #define TEMPERATURE_THRESHOLD1 32 
  
